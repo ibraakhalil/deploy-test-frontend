@@ -1,0 +1,254 @@
+{
+  "common": {
+    "support-us": "Support Us"
+  },
+
+  "welcome": {
+    "title": "Welcome to the Hadith App",
+    "description": "Explore and read Hadiths in different languages on our Hadith app."
+  },
+
+  "locale-switcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ar {🇸🇦 Arabic} bn {🇧🇩 Bengali} en {🇺🇸 English} other {Unknown}}"
+  },
+
+  "footer": {
+    "important-links": "Important Links",
+    "follow-us": "Follow us",
+    "site-info": {
+      "description": "IRD Foundation develops Islamic applications for the welfare of humanity. Our work is only sent in the hope of the mercy of Allah Ta'ala (Subhanahu wa Ta'ala) and is made by following the madhhab and manhaj of Salaf-e-Saliheen."
+    },
+
+    "other-pages": {
+      "other-pages": "Other Pages",
+      "about": "About us",
+      "privacy": "Privacy Policy",
+      "books": "Islamic Books",
+      "blog": "The Islamic Blog",
+      "videos": "Islamic Videos"
+    }
+  },
+
+  "download-app": {
+    "title": "Download <alHadith>Al Hadith</alHadith> Mobile App.",
+    "description": "To download the app or APK files, visit the IRD Foundation's official website",
+
+    "status": {
+      "reviews": "{value,number} (Reviews)",
+      "total-users": "From {user,number}k Users",
+      "downloads": "App Download",
+      "active-users": "Active User's",
+      "value": "{value,number}k+"
+    }
+  },
+
+  "banner": {
+    "important-feature": "Important Features",
+    "download-app": "Download Mobile App",
+    "become-donor": "Become a monthly donor",
+    "subscribe": "Subscribe",
+    "become-donor-description": "Be our beacon of hope! Your regular support fuels our mission to share Quranic wisdom. Donate monthly; be the change we need!",
+
+    "app-download-drawer": {
+      "title": "Al Hadith",
+      "description": "Read all Hadith collections including Sahih Bukhari, Sahih Muslim, and other Hadith books in Bengali on various Islamic topics offline with the Al Hadith app.",
+      "download": "Download the Al Hadith App"
+    }
+  },
+
+  "tahakik": {
+    "total-hadith": "Total Hadith: {count,number}",
+    "sahih-hadith": {
+      "title": "Sahih Hadith",
+      "description": "The hadith whose sanad is continuous, the narrators are just and possess full authority, and the hadith is not sha'j and mu'allal, that hadith is sahih or sahih lizatihi. Among the accepted hadiths, the status of Sahih Lizatihi is the highest"
+    },
+    "hasan-hadith": {
+      "title": "Hasan Hadith",
+      "description": "A hadith whose narrators are known to be upright and trustworthy, but don't reach the highest level of authenticity. It's considered reliable but not as strong as Sahih."
+    },
+    "sahih-li-ghairihi": {
+      "title": "Sahih Li-Ghairihi",
+      "description": "A hadith that doesn't meet all the criteria of Sahih on its own, but is elevated to Sahih status due to supporting evidence or corroborating narrations."
+    },
+    "sahih-maqtu": {
+      "title": "Sahih Maqtu",
+      "description": "A saying or action authentically attributed to a Tabi'i (successor of the companions) with a sound chain of narration."
+    },
+    "sahih-mawquf": {
+      "title": "Sahih Mawquf",
+      "description": "A saying or action authentically attributed to a companion of the Prophet with a sound chain of narration, but not raised to the level of the Prophet himself."
+    },
+    "sahih-marfu": {
+      "title": "Sahih Marfu",
+      "description": "A hadith that is authentically attributed to the Prophet Muhammad, either through his words, actions, or tacit approvals."
+    },
+    "sahih-mutawatir": {
+      "title": "Sahih Mutawatir",
+      "description": "A hadith that has been narrated by such a large number of people that it's impossible for them to have colluded in a lie, thereby providing certainty of its authenticity."
+    },
+    "hasan-sahih": {
+      "title": "Hasan Sahih",
+      "description": "A classification used when scholars differ on whether a hadith meets the criteria of Sahih or Hasan, indicating it's between these two levels of authenticity."
+    },
+    "hasan-mawquf": {
+      "title": "Hasan Mawquf",
+      "description": "A saying or action reliably attributed to a companion of the Prophet, but not raised to the level of the Prophet himself, with a chain of narration that is Hasan (good) but not Sahih (authentic)."
+    },
+    "hasan-maqtu": {
+      "title": "Hasan Maqtu",
+      "description": "A saying or action attributed to a Tabi'i (successor of the companions) with a chain of narration that is Hasan (good) but not Sahih (authentic)."
+    },
+    "hasan-li-ghairihi": {
+      "title": "Hasan Li-Ghairihi",
+      "description": "A weak hadith that is elevated to the level of Hasan due to supporting evidence or multiple chains of narration that strengthen each other."
+    }
+  },
+
+  "credit-page": {
+    "title": "Thanks & Credit",
+    "description": "We are grateful to all concerned for completing the project",
+    "thank": "Also, heartfelt greetings to all those who were directly or indirectly with the Dua and Ruqiyah app.",
+
+    "intro": {
+      "p1": "Alhamdulillah! First of all, I praise Allah who has given me the strength to do this. May many blessings and salam be sent down on the beloved Prophet Muhammad (صلى الله عليه وسلم). Peace be upon the family of the Prophet (صلى الله عليه وسلم), the Companions, the Tabi'i, the Tabi'een, and the righteous servants.",
+      "p2": "Many people have helped us in this project, we are grateful to them. May Allah Almighty reward them well. Amen."
+    },
+
+    "resources": {
+      "title": "People I have helped with the project –",
+      "list": [
+        "Holy Quran",
+        "Various Hadith books including Kutub as-Sittah",
+        "Rahe Belayat (Dr. Khondokar Abdullah Jahangir)",
+        "Hisnul Muslim (Said ibn Ali Al-Qahtani)",
+        "Mobile app named الباحث الحديثي",
+        "Mobile app named تراث",
+        "Jinn and Jinn-related illnesses",
+        "Health and Medical Science in the View of Islam (Shaikhul Hadith Maulana Abdur Rauf Shamim)",
+        "The Effect of Jinn on Humans: Causes, Remedies and Protection (Abdullah Shahid Abdur Rahman)",
+        "Hijama Ruqyah (Abdus Sabur Chowdhury)",
+        "Treatment of Evil Eye, Magic and Jinn (Abu Ahmad Saifuddin Belal)",
+        "وقاية الإنسان من الجن والشيطان (Sheikh Wahid bin Abdus Salam Bali)",
+        "الصارم البتار في التصدي للسحرة الأشرار (Sheikh Wahid bin Abdus Salam Bali)",
+        "ارق نفسك وأهلك بنفسك (Dr. Khalid Al-Juraisi)",
+        "الفتاوى الذهبية في الرقى الشرعية (Dr. Khalid Al-Juraisi)",
+        "عالم الجن والشياطين (Omar Suleiman Al-Ashqar)",
+        "الحصن الحصين (Imam Muhammad Ibn Al-Jazari Shafi'i)",
+        "الذكر والدعاء والعلاج بالرقي من الكتاب والسنة (Said ibn Ali Al-Qahtani)",
+        "IRD App Developer Team",
+        "IRD Website Developer Team",
+        "Those who have financially contributed to the development of the IRD App",
+        "Every member of the IRD Team"
+      ]
+    }
+  },
+
+  "about-page": {
+    "title": "Get to know us",
+    "description": "We are trying to make it easier for everyone to learn and know Islam",
+    "heading": {
+      "p1": "Our journey started in 2012. Our first project was to create a complete database of hadith. By the grace of God, we were able to accomplish it successfully. At the same time, I was able to find the Al-Hadith Android and iOS app, Alhamdulillah. We have also launched a website for Hadith. We then took steps to work on the tafsir of the Holy Quran and its translation. We were also able to launch an Android Quran app, an iOS Quran app, and a website of Alhamdulillah. Recently we were able to bring out the Android and iOS app of Dua and Ruqiyah Alhamdulillah.",
+      "p2": "Now we are trying to improve our existing projects and are also working on different concepts for different projects that can be given beautiful features to the Ummah by the will of Allah Subhanahu Wa Ta'ala.",
+      "p3": "So dear brothers and sisters, keep us in your prayers."
+    },
+
+    "projects": {
+      "title": "Our Projects –",
+      "list": [
+        "Dua & Ruqiyah Android App",
+        "Dua & Ruqiyah iOS App",
+        "Al Hadith Android App",
+        "Al Hadith iOS App",
+        "Quran Majeed Android App",
+        "Quran Majeed iOS App",
+        "iHadith website",
+        "Quran Majeed website"
+      ]
+    },
+
+    "visit-all-projects": "To know all the projects, visit -",
+    "visit-link": " Over here"
+  },
+
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "description": "We protect the confidentiality of your information",
+
+    "heading": {
+      "p1": "Islamic Resource Development (IRD) (\"we\" or \"our\" or \"everyone\") respects our privacy so that the user (\"user\" or \"you\"). How we will collect, use, disclose and protect your information when you visit our web site (\"Dua and Ruqiyah Web\") pursuant to this Privacy Policy. Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the web site.",
+      "p2": "We reserve the right to make changes to this Privacy Policy at any time and for any reason. By your continued use of the Web Site after the date of the posting of such revised Privacy Policy, you will be deemed to have become aware of, and accept any revised Privacy Policy."
+    },
+
+    "collection-info": {
+      "title": "Collection of Your Information",
+      "description": "We may collect information about you in a variety of ways. The information we may collect through the Web Site depends on the content and materials you use, and which includes:"
+    },
+
+    "personal-data": {
+      "title": "Personal Data",
+      "description": "Demographic and other personally identifiable information (such as your name and email address) that you voluntarily provide us when you engage in activity related to participation in various types of activity on the Web site, particularly your email address that you choose when sending us your feedback, reporting a verse and saving your settings in your Google Drive. When reporting a verse or sending feedback, your email address is used strictly to contact you in need regarding that particular report or response. We do not share your email address with any third parties."
+    },
+
+    "mobile-device-access": {
+      "title": "Mobile device access",
+      "description": "We may access or request permission to access certain features from your mobile device, especially your mobile device's Internet, network access state, external storage permission, permission to write to storage, external storage permission, vibrate and permission to clear app cache. If you wish to change our access or permissions, you can do so in your device's settings."
+    },
+
+    "push-notification": {
+      "title": "Push Notification",
+      "description": "We may request that you send push notifications about your account or application. If you wish to opt-out of receiving such communications, you can turn them off in your device's settings."
+    },
+
+    "use-of-info": {
+      "title": "Use of your information",
+      "description": "Having accurate information about you allows us to provide you with a smooth, efficient, and customized experience. In particular, we may use the information we collect about you through the application:",
+
+      "list": [
+        "Your storage is used to save your bookmarks.",
+        "Your storage is used to retrieve the last reading.",
+        "Your storage is used to save a copy of your settings.",
+        "Your email address is used to save your settings for future use.",
+        "Your email address is also used to identify you when you send your feedback.",
+        "Your email address is also used to identify you when you report a dua.",
+        "Your mobile network state data is used to check if we can download the required data."
+      ]
+    },
+
+    "disclosure": {
+      "title": "Disclosure of Your Information",
+      "description": "No of your data is shared, stored or used by any third party or us, except when used via email and by Google Drive, which only stores a copy of your settings in your Google Drive account."
+    }
+  },
+
+  "caution": {
+    "title": "Caution",
+    "description": "We are trying to make it easier for everyone to learn and know Islam",
+
+    "heading": {
+      "p1": "It is completely forbidden to add different types of haram ads to most of them to earn money by creating different mobile apps / websites by changing the content of Dua and Rukiah apps. We urge everyone not to create and use such mobile apps or websites. Moreover, you will not get regular updates in those apps, in which case the mistakes will never be updated.",
+      "p2": "However, it is allowed to share on Facebook, YouTube, blogs, articles, etc. for the purpose of da'wah work. But in that case, we hope that you will mention our source because others will also know and will be interested in da'wah work."
+    }
+  },
+
+  "contact-us": {
+    "title": "Contact Us",
+    "description": "We are trying to make it easier for everyone to learn and know Islam",
+    "content": {
+      "description": "Have a question or comment? We'd love to hear from you! Whether you're a potential customer, existing partner, or just have some feedback, feel free to reach out using our convenient contact form below. You can also reach us by email. We look forward to connecting with you!",
+      "social-media": "social media",
+      "mail-info": "Mail Info",
+      "email": "report.irdfoundation@gmail.com"
+    },
+
+    "contact-form": {
+      "name": "Your name",
+      "write-name": "Enter your name",
+      "email": "Email Address",
+      "mobile": "Mobile Number",
+      "message": "Enter the message",
+      "write-message": "Write your message here...",
+      "submit": "Submit Message"
+    }
+  }
+}

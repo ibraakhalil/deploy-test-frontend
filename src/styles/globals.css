@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* variables for themes */
+@layer base {
+  :root {
+    --color-primary: 112 39% 36%;
+    --color-primary-background: 0 0% 100%;
+    --color-primary-foreground: 0 0% 100%;
+
+    --color-secondary-background: 0 0% 96%;
+
+    --color-card-background: 0 0% 100%;
+    --color-card-shade: 180 4% 97%;
+
+    --color-subtitle: 160 7% 51%;
+    --color-subtitle-secondary: 154 9% 39%;
+
+    --color-pure: 100 2% 21%;
+    --color-icon: 160 7% 51%;
+    --color-border: 0 0% 95%;
+    --color-error: 0 70% 50%;
+    --dropdown-shadow: 0px 4px 24px 0px rgba(65, 126, 56, 0.2);
+
+    /* layout components size */
+    --side-nav-size: 70px;
+    --top-nav-size: 60px;
+    --_top-nav-size: 60px;
+
+    --bottom-bar-size: 0px;
+    --_bottom-bar-size: var(--bottom-bar-size);
+
+    --side-nav-size: 50px;
+    --_side-nav-size: 50px;
+
+    --left-sidebar-size: 300px;
+    --right-sidebar-size: 334px;
+  }
+
+  @screen desktop {
+    :root {
+      --left-sidebar-size: 334px;
+    }
+  }
+
+  @screen laptop {
+    :root {
+      --side-nav-size: 70px;
+      --_side-nav-size: 70px;
+    }
+  }
+
+  .dark {
+    --color-primary: 112 39% 36%;
+    --color-primary-background: 0 0% 5%;
+    --color-primary-foreground: 0 0% 100%;
+
+    --color-secondary-background: 0 0% 9%;
+
+    --color-card-background: 0 0% 7%;
+    --color-card-shade: 0 0% 11%;
+
+    --color-subtitle: 150 2% 48%;
+    --color-subtitle-secondary: 150 2% 48%;
+
+    --color-pure: 0 0% 77%;
+    --color-icon: 150 2% 57%;
+    --color-border: 0 0% 13%;
+  }
+
+  .sepia {
+    /* It is necessary because of tailwindcss sepia class */
+    filter: none !important;
+
+    --color-primary: 29 32% 45%;
+    --color-primary-background: 45 46% 95%;
+    --color-primary-foreground: 45 46% 95%;
+
+    --color-secondary-background: 44 44% 92%;
+
+    --color-card-background: 45 46% 95%;
+    --color-card-shade: 44 44% 92%;
+
+    --color-subtitle: 28 11% 46%;
+    --color-subtitle-secondary: 28 11% 46%;
+
+    --color-pure: 28 20% 19%;
+    --color-icon: 28 20% 48%;
+    --color-border: 43 36% 88%;
+    --dropdown-shadow: 0px 4px 24px 0px rgba(151, 114, 78, 0.2);
+  }
+}
+
+/* font sizes */
+@layer base {
+  [data-lang="en"],
+  :root {
+    --font-size-heading-1: 2.75rem; /* 44px */
+    --font-size-heading-2: 2.25rem; /* 36px */
+    --font-size-heading-3: 1.875rem; /* 30px */
+    --font-size-heading-4: 1.625rem; /* 26px */
+    --font-size-heading-5: 1.375rem; /* 22px */
+    --font-size-heading-6: 1.125rem; /* 18px */
+
+    --font-size-body: 1rem; /* 16px */
+    --font-size-title: 0.9375rem; /* 15px */
+    --font-size-base: 0.875rem; /* 14px */
+    --font-size-subtitle: 0.8125rem; /* 13px */
+  }
+
+  html[lang="bn"] {
+    --font-size-heading-1: 2.875rem;
+    --font-size-heading-2: 2.375rem;
+    --font-size-heading-3: 2rem;
+    --font-size-heading-4: 1.75rem;
+    --font-size-heading-5: 1.5rem;
+    --font-size-heading-6: 1.25rem;
+
+    --font-size-body: 1.0625rem;
+    --font-size-title: 1rem;
+    --font-size-base: 0.9375rem;
+    --font-size-subtitle: 0.875rem;
+  }
+}
+
+/* scrollbar styles */
+@layer base {
+  .horizontal-scroll {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+    height: 0px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply min-h-11 rounded-full bg-primary-20;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/90;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.45rem;
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply min-h-11 rounded-full bg-primary;
+  }
+
+  @-moz-document url-prefix() {
+    html {
+      scrollbar-width: thin;
+      scrollbar-color: hsl(var(--color-primary) / 100) hsl(var(--color-primary) / 0);
+    }
+  }
+}
+
+@layer base {
+  :root {
+    --full-screen: 100vh;
+    --fs: 100vh;
+  }
+
+  @supports (height: 100dvh) {
+    :root {
+      --full-screen: 100dvh;
+      --fs: 100dvh;
+    }
+  }
+}

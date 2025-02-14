@@ -1,0 +1,72 @@
+:root {
+  --gradient-hero-primary: radial-gradient(51.41% 108.46% at 50% 45.6%, #ffffff, #eef7ee);
+  --hero-bottom-shape-1: #d5e4d5;
+  --hero-bottom-shape-2: #eef7ee;
+
+  --download-app-svg-1: #e0ebe0;
+
+  --footer-shade-1: 208 227 226;
+  --footer-shade-2: 183 208 207;
+  --footer-shade-3: 157 180 179;
+}
+
+.sepia {
+  --gradient-hero-primary: radial-gradient(
+    51.41% 108.46% at 50% 45.6%,
+    hsl(var(--color-primary-background)),
+    hsl(var(--color-secondary-background))
+  );
+
+  --hero-bottom-shape-1: #e8dec3;
+  --hero-bottom-shape-2: #f4efe2;
+
+  --download-app-svg-1: #d7d6be;
+
+  --footer-shade-1: 236 230 215;
+  --footer-shade-2: 220 209 187;
+  --footer-shade-3: 185 175 154;
+}
+
+.dark {
+  --gradient-hero-primary: radial-gradient(
+    51.41% 108.46% at 50% 45.6%,
+    hsl(var(--color-primary-background)),
+    hsl(var(--color-secondary-background))
+  );
+
+  --hero-bottom-shape-1: #1d1d1d;
+  --hero-bottom-shape-2: #171717;
+
+  --download-app-svg-1: #091109;
+
+  --footer-shade-1: 16 16 16;
+  --footer-shade-2: 29 29 29;
+  --footer-shade-3: 16 16 16;
+}
+
+@font-face {
+  font-family: "Calligraphy";
+  src:
+    url("/fonts/surah-name-calligraphy.woff2") format("woff2"),
+    url("/fonts/surah-name-calligraphy.woff") format("woff"),
+    url("/fonts/surah-name-calligraphy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CinzelDecorative";
+  src: url("/fonts/cinzel-decorative.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "kfgq";
+  src: url("/fonts/KFGQ.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

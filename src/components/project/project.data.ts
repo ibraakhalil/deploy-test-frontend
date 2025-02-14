@@ -1,0 +1,67 @@
+export const projects = [
+  {
+    id: 1,
+    name: "Al Hadith Mobile App",
+    appType: "mobile-app",
+    description: "We are proud that we have reached 1 million users! We are committed",
+    image: {
+      light: "/assets/project/al-hadith-app-light.png",
+      dark: "/assets/project/al-hadith-app-light.png",
+    },
+    playStoreLink: "https://play.google.com/store/apps/details?id=com.ihadith.ihadith",
+    appStoreLink: "https://apps.apple.com/us/app/al-hadith/id1238182914",
+    webLink: "",
+  },
+  {
+    id: 3,
+    name: "Dua & Ruqyah (Hisnul Muslim)",
+    appType: "web-app",
+    description: "We are proud that we have reached 1 million users! We are committed",
+    image: {
+      light: "/assets/project/dua-ruqya-web-light.png",
+      dark: "/assets/project/dua-ruqya-web-dark.png",
+    },
+    playStoreLink: "",
+    appStoreLink: "",
+    webLink: "https://duaruqyah.com",
+  },
+  {
+    id: 4,
+    name: "Dua & Ruqyah (Hisnul Muslim) App ",
+    appType: "mobile-app",
+    description: "We are proud that we have reached 1 million users! We are committed",
+    image: {
+      light: "/assets/project/dua-ruqya-app-light.png",
+      dark: "/assets/project/dua-ruqya-app-dark.png",
+    },
+    playStoreLink: "https://play.google.com/store/apps/details?id=com.ihadith.dua",
+    appStoreLink: "https://apps.apple.com/us/app/dua-ruqyah/id1568942398",
+    webLink: "",
+  },
+  {
+    id: 5,
+    name: "Qur'an Majid Mobile App ",
+    appType: "mobile-app",
+    description: "We are proud that we have reached 1 million users! We are committed",
+    image: {
+      light: "/assets/project/quran-mazid-app-light.png",
+      dark: "/assets/project/quran-mazid-app-dark.png",
+    },
+    playStoreLink: "https://play.google.com/store/apps/details?id=com.ihadith.quranpro",
+    appStoreLink: "https://apps.apple.com/us/app/quran-majeed-pro/id1610165189",
+    webLink: "",
+  },
+  {
+    id: 6,
+    name: "Quran Majeed website",
+    appType: "web-app",
+    description: "We are proud that we have reached 1 million users! We are committed",
+    image: {
+      light: "/assets/project/quran-mazid-web-light.png",
+      dark: "/assets/project/quran-mazid-web-dark.png",
+    },
+    playStoreLink: "https://play.google.com/store/apps/details?id=com.ihadith.dua",
+    appStoreLink: "https://apps.apple.com/us/app/dua-ruqyah/id1568942398",
+    webLink: "https://quranmazid.com",
+  },
+];

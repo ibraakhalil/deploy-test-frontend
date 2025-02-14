@@ -1,0 +1,178 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "import",
+    "jsx-a11y",
+    "react",
+    "react-func",
+    "react-hooks",
+    "check-file"
+  ],
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-nested-ternary": 0,
+    "prettier/prettier": 2,
+    "react/react-in-jsx-scope": 0,
+    "import/prefer-default-export": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-fragments": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-plusplus": 0,
+    "no-useless-escape": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/destructuring-assignment": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "react/jsx-no-bind": 0,
+    "react/require-default-props": 0,
+    "react/button-has-type": 0,
+    "react/prop-types": 0,
+    "@typescript-eslint/no-floating-promises": 0,
+    "react/jsx-no-constructed-context-values": 0,
+    "@typescript-eslint/no-unsafe-call": 0,
+    "@typescript-eslint/no-unsafe-assignment": 0,
+    "@typescript-eslint/no-unsafe-member-access": 0,
+    "@typescript-eslint/no-unsafe-return": 0,
+    "no-void": 0,
+    "no-console": "off",
+    "react/boolean-prop-naming": [
+      0,
+      {
+        "rule": "^(is|has|should)[A-Z]([A-Za-z0-9]?)+"
+      }
+    ],
+    "max-lines": [
+      2,
+      {
+        "max": 150,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      2,
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      2,
+      {
+        "devDependencies": ["*.config.{mjs,ts,cjs}"]
+      }
+    ],
+    "check-file/folder-naming-convention": [
+      2,
+      {
+        "*/**": "KEBAB_CASE"
+      }
+    ],
+    "check-file/filename-naming-convention": [
+      2,
+      {
+        "**/*.*": "KEBAB_CASE"
+      },
+      {
+        "ignoreMiddleExtensions": true
+      }
+    ],
+    "react-func/max-lines-per-function": [
+      2,
+      {
+        "max": 30,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "no-restricted-imports": [
+      1,
+      {
+        "name": "next/link",
+        "message": "Please import from `@/navigation` instead."
+      },
+      {
+        "name": "next/navigation",
+        "importNames": ["redirect", "permanentRedirect", "useRouter", "usePathname"],
+        "message": "Please import from `@/navigation` instead."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["src/app/**/*"],
+      "rules": {
+        "check-file/folder-naming-convention": [
+          2,
+          {
+            "src/app/**/": "NEXT_JS_APP_ROUTER_CASE"
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.config.{mjs,ts,cjs}", "i18n.ts"],
+      "rules": {
+        "@typescript-eslint/no-unsafe-call": 0,
+        "@typescript-eslint/no-unsafe-assignment": 0,
+        "@typescript-eslint/no-unsafe-member-access": 0
+      }
+    },
+    {
+      "files": ["src/stores/**/*"],
+      "rules": {
+        "no-param-reassign": 0
+      }
+    },
+    {
+      "files": ["src/components/**/*"],
+      "rules": {
+        "import/no-default-export": 2
+      }
+    },
+    {
+      "files": ["src/components/svg/**/*", "src/app/[locale]/theme/**/*"],
+      "rules": {
+        "max-lines": 0,
+        "react-func/max-lines-per-function": [
+          2,
+          {
+            "max": 250,
+            "skipBlankLines": true,
+            "skipComments": true
+          }
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}

@@ -40,5 +40,10 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i deploy_key.pem ubuntu@$OCI_HOST << 'EOF'
             cd /var/www/quran-mazid/frontend
             unzip -o /var/www/quran-mazid/frontend/frontend.zip
-            npm install --production
+            npm i
+            if pm2 list | grep -q quran-frontend; then
+              pm2 restart quran-frontend
+            else
+              pm2 start npm --name quran-frontend -- run start
+            fi
           EOF

@@ -28,6 +28,7 @@ jobs:
         run: |
           echo "$OCI_KEY" > deploy_key.pem
           chmod 600 deploy_key.pem
+          ssh -o StrictHostKeyChecking=no -i deploy_key.pem ubuntu@$OCI_HOST 'sudo mkdir -p /var/www/quran-mazid/frontend && sudo chown -R ubuntu:ubuntu /var/www/quran-mazid'
           scp -o StrictHostKeyChecking=no -i deploy_key.pem frontend.zip ubuntu@$OCI_HOST:/var/www/quran-mazid/frontend/
 
       - name: SSH into Oracle Cloud and deploy

@@ -16,7 +16,7 @@ interface PageProps {
 
 export default async function page({ params: { locale, surahId } }: PageProps) {
   unstable_setRequestLocale(locale);
-  const verseKey = decodeURIComponent(surahId);
+  const verseKey = decodeURIComponent(surahId || "1:1");
   const verse = await getTafsirWords(verseKey);
 
   if (!verse) notFound();

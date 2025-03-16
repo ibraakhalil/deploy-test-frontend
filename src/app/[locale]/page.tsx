@@ -6,6 +6,7 @@ import { HomeHeader } from "@/components/home/header";
 import { Hero } from "@/components/home/hero";
 import { QuranIndex } from "@/components/home/quran-index";
 import { LeftNavBar, LeftNavBarLayout } from "@/components/layouts/left-nav";
+import { Link } from "@/navigation";
 import { unstable_setRequestLocale } from "next-intl/server";
 
 export default function Home({ params: { locale } }: { params: { locale: string } }) {
@@ -18,6 +19,9 @@ export default function Home({ params: { locale } }: { params: { locale: string 
         <LeftNavBar />
       </LeftNavBarLayout>
       <Hero />
+      <Link href="/profile/bookmarks" className="bg-[red] p-8 text-primary-fg">
+        Profile page
+      </Link>
       <div className="flex flex-col gap-[50px] tablet:mt-16 tablet:gap-[80px]">
         <Collections className="max-tablet:hidden" />
         <QuranIndex />
